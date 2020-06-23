@@ -1,0 +1,53 @@
+{
+    "multipart": [
+        {   "apply": { "model": "block/magenta_stained_glass_pane_post" }},
+        {   "when": { "north": true },
+            "apply": [
+              { "model": "block/magenta_stained_glass_pane_side" },
+              { "model": "block/magenta_stained_glass_pane_side", "y": 180}
+            ]
+        },
+        {   "when": { "east": true },
+            "apply": [
+              { "model": "block/magenta_stained_glass_pane_side", "y": 90 },
+              { "model": "block/magenta_stained_glass_pane_side", "y": 270 }
+            ]
+        },
+        {   "when": { "south": true },
+            "apply": [
+              { "model": "block/magenta_stained_glass_pane_side_alt" },
+              { "model": "block/magenta_stained_glass_pane_side_alt", "y": 180}
+            ]
+        },
+        {   "when": { "west": true },
+            "apply": [
+              { "model": "block/magenta_stained_glass_pane_side_alt", "y": 90 },
+              { "model": "block/magenta_stained_glass_pane_side_alt", "y": 270 }
+            ]
+        },
+        {   "when": { "north": false },
+            "apply": [
+              { "model": "block/magenta_stained_glass_pane_noside" },
+              { "model": "block/magenta_stained_glass_pane_noside", "y": 180 }
+            ]
+        },
+        {   "when": { "east": false },
+            "apply": [
+              { "model": "block/magenta_stained_glass_pane_noside_alt" },
+              { "model": "block/magenta_stained_glass_pane_noside_alt", "y": 180 }
+            ]
+        },
+        {   "when": { "south": false },
+            "apply": [
+              { "model": "block/magenta_stained_glass_pane_noside_alt", "y": 90 },
+              { "model": "block/magenta_stained_glass_pane_noside_alt", "y": 270 }
+            ]
+        },
+        {   "when": { "west": false },
+            "apply": [
+              { "model": "block/magenta_stained_glass_pane_noside", "y": 90 },
+              { "model": "block/magenta_stained_glass_pane_noside", "y": 270 }
+            ]
+        }
+    ]
+}
