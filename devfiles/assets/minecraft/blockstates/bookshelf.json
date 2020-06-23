@@ -1,0 +1,15 @@
+{
+    "variants": {
+        "": [
+          { "model": "block/bookshelf" },
+          { "model": "block/bookshelf" },
+          { "model": "block/bookshelf" },
+          { "model": "block/bookshelf" },
+          { "model": "block/bookshelf" },
+          { "model": "block/loom_side" },
+          { "model": "block/bookshelf" },
+          { "model": "block/bookshelf" },
+          { "model": "block/bookshelf" }
+        ]
+    }
+}

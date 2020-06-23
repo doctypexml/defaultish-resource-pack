@@ -1,0 +1,10 @@
+{
+    "variants": {
+        "": [
+          { "model": "block/diorite" },
+          { "model": "block/diorite", "y": 90 },
+          { "model": "block/diorite", "y": 180 },
+          { "model": "block/diorite", "y": 270 }
+        ]
+    }
+}

@@ -1,0 +1,22 @@
+{
+    "variants": {
+      "type=bottom": [
+        { "model": "block/andesite_slab" },
+        { "model": "block/andesite_slab", "y": 90 },
+        { "model": "block/andesite_slab", "y": 180 },
+        { "model": "block/andesite_slab", "y": 270 }
+      ],
+      "type=top": [
+        { "model": "block/andesite_slab_top" },
+        { "model": "block/andesite_slab_top", "y": 90 },
+        { "model": "block/andesite_slab_top", "y": 180 },
+        { "model": "block/andesite_slab_top", "y": 270 }
+      ],
+      "type=double": [
+        { "model": "block/andesite" },
+        { "model": "block/andesite", "y": 90 },
+        { "model": "block/andesite", "y": 180 },
+        { "model": "block/andesite", "y": 270 }
+      ]
+    }
+}
